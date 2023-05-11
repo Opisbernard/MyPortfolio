@@ -1058,7 +1058,7 @@ color: var(--main-color);
 font-size: 50px;
 font-weight: 700;
 letter-spacing: normal;
-color: var(--black-900);
+color: var(--white-900);
 }
 .home-section .home-text p
 {
@@ -1264,10 +1264,6 @@ font-size: 12px;
 flex: 0 0 100%;
 max-width: 100%;
 }
-/* .service-section .service-item-inner h3
-{
-color: var(--white-900);
-} */
 .service-section .service-item-inner p
 {
 font-size: 14px;
