@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap);
 html
 {
 scroll-behavior: smooth;
@@ -6,7 +5,7 @@ scroll-behavior: smooth;
 :root
 {
 --main-color:#A5D7E8;
---shadow-black-100:0 5px 15px rgba(0,0,0,0.2);
+--shadow-black-100:0 5px 15px rgba(0, 0, 0, 0.366);
 --white-900:#fff;
 --black-900:#000;
 --black-400:#576CBC;
@@ -173,7 +172,7 @@ text-transform: capitalize;
 }
 .navbar .logo a span
 {
-color: var(--black-900);
+color: var(--white-900);
 font-size: 30px;
 }
 .navbar .menu .nav-item
@@ -384,7 +383,7 @@ color: var(--white-900);
 .home-section .home-text p
 {
 font-size: 16px;
-color: var(--white-900);
+color: var(--white-500);
 font-weight: 600;
 margin-top: 15px;
 }
@@ -507,7 +506,7 @@ right: 0;
 .skill-item .skill-header .skill-percentage p
 {
 font-size: 14px;
-font-weight: 400;
+font-weight: 500;
 }
 .skill-item .skill-bar
 {
@@ -825,9 +824,9 @@ bottom: 0;
 width: 100%;
 display: flex;
 justify-content: space-between;
-font-size: 16px;
+font-size: 20px;
 color: var(--main-color);
-font-weight: 400;
+font-weight: 500;
 z-index: -1;
 }
 .lightbox .lightbox-controls .prev-item,
@@ -864,10 +863,10 @@ left: 30px;
 {
 right: 30px;
 }
-.lightbox .lightbox-controls .next-item .fa,
-.lightbox .lightbox-controls .prev-item .fa
+.lightbox .lightbox-controls .next-item ion-icon,
+.lightbox .lightbox-controls .prev-item ion-icon
 {
-font-size: 32px;
+font-size: 40px;
 line-height: 40px;
 }
 
@@ -895,7 +894,7 @@ width: 100%;
 }
 .contact-section .contact-item-inner ion-icon
 {
-font-size: 25px;
+font-size: 45px;
 color: var(--main-color);
 }
 .contact-section .contact-item-inner span
@@ -910,7 +909,7 @@ text-transform: capitalize;
 .contact-section .contact-item-inner p
 {
 font-size: 16px;
-color: var(--black-400);
+color: var(--main-color);
 line-height: 26px;
 margin: 0;
 }
@@ -1014,10 +1013,10 @@ margin:0% 1%;
 {
 	.header-social
 	{
-	position: absolute;
+	position: flex;
 	display: inline-flex;
-	top: 15%;
-	left: 13%;
+	top: 25%;
+	left: 20%;
 	transform: translateX(-53%);
 	border: 1px solid var(--main-color);
 	border-radius: 50px;
@@ -1042,7 +1041,7 @@ margin:0% 1%;
 	flex: 0 0 50%;
 	max-width: 50%;
 	padding: 0 25px;
-	margin-top: 5%;
+	margin-top: 15%;
 	}
 	.home-section .home-text h4
 	{
@@ -1054,7 +1053,6 @@ margin:0% 1%;
 	{
 	font-size: 50px;
 	font-weight: 700;
-	margin-top: 15px;
 	letter-spacing: normal;
 	color: var(--black-900);
 	}
@@ -1063,7 +1061,7 @@ margin:0% 1%;
 	font-size: 16px;
 	color: var(--black-400);
 	font-weight: 600;
-	margin-top: 15px;
+
 	}
 	.home-section .home-text .typing
 	{
@@ -1081,11 +1079,13 @@ margin:0% 1%;
 	}
 	.home-section .home-image .img-box img
 	{
+	display: flex;
 	position: relative;
-	margin-top: 50px;
+	margin-top: -60px;
+	left: 150px;
 	max-width: 100%;
-	width: 700px;
-	height: 650px;
+	width: 400px;
+	height: 350px;
 	z-index: 999;
 	}
 }
@@ -1116,7 +1116,7 @@ text-transform: capitalize;
 }
 .navbar .logo a span
 {
-color: var(--black-900);
+color: var(--white-900);
 font-size: 20px;
 }
 .navbar .menu
