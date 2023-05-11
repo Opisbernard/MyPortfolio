@@ -599,7 +599,7 @@ line-height: 65px;
 {
 font-size: 20px;
 font-weight: 600;
-color: var(--black-900);
+color: var(--white-900);
 margin: 0 0 10px;
 text-transform: capitalize;
 transition: all 0.3s ease;
@@ -781,7 +781,7 @@ display: flex;
 .lightbox .lightbox-content img
 {
 height: auto;
-width: 800px;
+width: auto;
 max-width: 100%;
 max-height: 500px;
 cursor: default;
