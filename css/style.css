@@ -587,7 +587,7 @@ transition: all .5s ease;
 }
 .service-section .service-item-inner:hover .icon
 {
-background-color: var(--white);
+background-color: var(--black-100);
 color: var(--main-color);
 font-size: 24px;
 }
@@ -606,12 +606,12 @@ transition: all 0.3s ease;
 }
 .service-section .service-item-inner:hover h3
 {
-color: var(--white);
+color: var(--black-100);
 }
 .service-section .service-item-inner p
 {
 font-size: 16px;
-color: var(--black-400);
+color: var(--main-color);
 margin: 0;
 line-height: 26px;
 transition: all 0.3s ease;
@@ -1224,13 +1224,25 @@ display: none;
 {
 display: none;
 }
+.home-section .home-text h4
+{
+font-size: 15px;
+}
+.home-section .home-text h1
+{
+font-size: 30px;
+}
+.home-section .home-text .typing
+{
+font-size: 22px;
+}
 .home-section .home-text p
 {
-font-size: 13px;
+font-size: 12px;
 }
 .about-content p
 {
-font-size: 13px;
+font-size: 12px;
 }
 .service-section .service-item,
 .portfolio .portfolio-item,
@@ -1242,18 +1254,6 @@ font-size: 13px;
 flex: 0 0 100%;
 max-width: 100%;
 }
-.home-section .home-text h4
-{
-font-size: 20px;
-}
-.home-section .home-text h1
-{
-font-size: 40px;
-}
-.home-section .home-text .typing
-{
-font-size: 30px;
-}
 .service-section .service-item-inner h3
 {
 color: var(--white-900);
@@ -1261,7 +1261,6 @@ color: var(--white-900);
 .service-section .service-item-inner p
 {
 font-size: 14px;
-color: var(--main-color);
 }
 .footer
 {
