@@ -1224,6 +1224,14 @@ display: none;
 {
 display: none;
 }
+.home-section .home-text p
+{
+font-size: 13px;
+}
+.about-content p
+{
+font-size: 13px;
+}
 .service-section .service-item,
 .portfolio .portfolio-item,
 .pricing .pricing-item,
@@ -1246,6 +1254,15 @@ font-size: 40px;
 {
 font-size: 30px;
 }
+.service-section .service-item-inner h3
+{
+color: var(--white-900);
+}
+.service-section .service-item-inner p
+{
+font-size: 14px;
+color: var(--main-color);
+}
 .footer
 {
 text-align: center;
@@ -1266,7 +1283,7 @@ margin:0% 3%;
 font-size: 15px;
 }
 }
-@media only screen and (max-width: 316px)
+@media only screen and (max-width: 320px)
 {
 .home-section .home-text h4
 {
