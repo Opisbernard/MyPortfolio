@@ -6,6 +6,7 @@ scroll-behavior: smooth;
 {
 --main-color:#A5D7E8;
 --shadow-black-100:0 5px 15px rgba(0,0,0,0.2);
+--white-900:#fff;
 --black-900:#000;
 --black-400:#576CBC;
 --black-100:#0B2447;
@@ -377,12 +378,12 @@ font-size: 50px;
 font-weight: 700;
 margin-top: 15px;
 letter-spacing: normal;
-color: var(--black-900);
+color: var(--white-900);
 }
 .home-section .home-text p
 {
 font-size: 16px;
-color: var(--black-400);
+color: var(--white-900);
 font-weight: 600;
 margin-top: 15px;
 }
@@ -732,6 +733,8 @@ opacity: 1;
 {
 height: 40px;
 width: 40px;
+font-size: 20px;
+font-weight: 700;
 color: var(--white);
 background-color: var(--main-color);
 text-align: center;
@@ -748,9 +751,9 @@ opacity: 0;
 transform: translateX(0px);
 opacity: 1;
 }
-.portfolio .portfolio-item .portfolio-info .icon .fa 
+.portfolio .portfolio-item .portfolio-info .icon 
 {
-line-height: 40px;
+line-height: 45px;
 }
 
 .lightbox
@@ -889,7 +892,7 @@ box-shadow: var(--shadow-black-100);
 border-radius: 5px;
 width: 100%;
 }
-.contact-section .contact-item-inner i
+.contact-section .contact-item-inner ion-icon
 {
 font-size: 25px;
 color: var(--main-color);
@@ -899,7 +902,7 @@ color: var(--main-color);
 display: block;
 font-size: 16px;
 font-weight: 600;
-color: var(--black-900);
+color: var(--white-900);
 margin: 15px 0 10px;
 text-transform: capitalize;
 }
