@@ -384,7 +384,7 @@ color: var(--white-900);
 .home-section .home-text p
 {
 font-size: 16px;
-color: var(--white-500);
+color: var(--white-900);
 font-weight: 600;
 margin-top: 15px;
 }
@@ -948,7 +948,7 @@ background-color: transparent;
 font-size: 16px;
 padding: 0 15px;
 transition: all 0.3s ease;
-color: var(--black-400);
+color: var(--white-900);
 }
 .contact-section .input-group textarea.input-control
 {
@@ -1063,7 +1063,7 @@ color: var(--white-900);
 .home-section .home-text p
 {
 font-size: 16px;
-color: var(--black-400);
+color: var(--white-900);
 font-weight: 600;
 }
 .home-section .home-text .typing
@@ -1194,10 +1194,6 @@ max-width: 100%;
 top: -40%;
 margin-left: -50%;
 }
-/* .home-image .img-box
-{
-margin-top: 30px;
-} */
 .about-section .about-image
 {
 display: none;
@@ -1211,7 +1207,6 @@ max-width: 75%;
 {
 text-align: center;
 }
-.pricing .pricing-item,
 .portfolio .portfolio-item,
 .service-section .service-item
 {
@@ -1219,6 +1214,23 @@ flex: 0 0 50%;
 max-width: 50%;
 }
 }
+@media only screen and (max-width: 800px)
+{
+	.service-section .service-item,
+	.contact-section .contact-item,
+	.contact-section .w-50,
+	.about-section .about-content
+	{
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+.portfolio .portfolio-item
+{
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+}
+
 @media only screen and (max-width: 416px)
 {
 .home-section
@@ -1256,7 +1268,6 @@ font-size: 12px;
 }
 .service-section .service-item,
 .portfolio .portfolio-item,
-.pricing .pricing-item,
 .contact-section .contact-item,
 .contact-section .w-50,
 .about-section .about-content
