@@ -1216,36 +1216,59 @@ max-width: 50%;
 }
 @media only screen and (max-width: 800px)
 {
-	.service-section .service-item,
-	.contact-section .contact-item,
-	.contact-section .w-50,
-	.about-section .about-content
-	{
-	flex: 0 0 100%;
-	max-width: 100%;
+.service-section .service-item,
+.contact-section .contact-item,
+.contact-section .w-50,
+.about-section .about-content
+{
+flex: 0 0 100%;
+max-width: 100%;
 }
 .portfolio .portfolio-item
 {
-	flex: 0 0 50%;
-	max-width: 50%;
+flex: 0 0 50%;
+max-width: 50%;
 }
 }
-
-@media only screen and (max-width: 416px)
+@media only screen and (max-width: 428px)
 {
 .home-section
 {
-	top: -80px;
-	display: flex;
+padding-top: 50%;
+display: absolute;
+}
+.home-section .home-image
+{
+display: none;
 }
 .header-social
 {
 display: none;
 }
-.home-section .home-image .img-box img
+.home-section .home-text h4
 {
-display: none;
+font-size: 20px;
 }
+.home-section .home-text h1
+{
+font-size: 40px;
+}
+.home-section .home-text .typing
+{
+font-size: 25px;
+}
+.home-section .home-text p
+{
+font-size: 15px;
+}
+.about-content p
+{
+font-size: 12px;
+}
+}
+@media only screen and (max-width: 416px)
+{
+
 .home-section .home-text h4
 {
 font-size: 15px;
