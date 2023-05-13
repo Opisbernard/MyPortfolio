@@ -1265,6 +1265,15 @@ font-size: 15px;
 {
 font-size: 12px;
 }
+.service-section .service-item,
+.portfolio .portfolio-item,
+.contact-section .contact-item,
+.contact-section .w-50,
+.about-section .about-content
+{
+flex: 0 0 100%;
+max-width: 100%;
+}
 }
 @media only screen and (max-width: 416px)
 {
